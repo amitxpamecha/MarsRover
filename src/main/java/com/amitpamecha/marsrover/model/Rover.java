@@ -34,6 +34,8 @@ public class Rover {
 		//row
 		int yAxis = grid[0].length-1;
 		
+		System.out.println("Terrain Location Map:");
+		
 		for(int row=yAxis; row>=0; row--){
 			for(int column=0; column<=xAxis; column++){
 				if(column==coordinates.getxCoordinate() && row==coordinates.getyCoordinate()){

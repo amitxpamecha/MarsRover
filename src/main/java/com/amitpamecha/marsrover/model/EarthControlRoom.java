@@ -55,6 +55,9 @@ public class EarthControlRoom {
 		}
 		
 		System.out.println("Command executed succesfully, rover new location is as follows:");
+		System.out.println("X:"+rover.getCoordinates().getxCoordinate()+", Y:"+rover.getCoordinates().getyCoordinate()
+				+", Orientation:"+rover.getCoordinates().getOrientation().toString());
+		
 		rover.sendRoverLocation();
 		}
 		}finally{
